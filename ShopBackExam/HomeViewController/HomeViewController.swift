@@ -34,7 +34,7 @@ class HomeViewController: UIViewController {
     }
 
     @objc func refresh(){
-        homeViewModel.pageNumber.accept("2")
+        homeViewModel.callRefresh()
         refreshControl.endRefreshing()
     }
 

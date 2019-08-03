@@ -12,6 +12,7 @@ import Foundation
 
 class HomeViewModel {
 
+    var currentPage = 1
     let pageNumber = BehaviorRelay(value: "1")
     lazy var data: Driver<[Result]> = {
         
@@ -31,47 +32,35 @@ class HomeViewModel {
                 return Observable.just([])
         }
         
-        return URLSession.shared.rx.json(url: url)
+        return URLSession.shared.rx.data(request: URLRequest(url: url))
             .retry(3)
-            .catchErrorJustReturn([])
             .map(parse)
     }
     
     static func parse(json: Any) -> [Result] {
         
-//        do {
-        
-            var movieData = [Result]()
-            let resultList = json as! Dictionary<String, Any>
-            let arrayItems:NSArray = resultList["results"] as! NSArray
-           arrayItems.forEach { item  in
-                let itemValue = item as! Dictionary<String,Any>
-                var res = Result()
-                res.title = itemValue["title"] as! String
-                movieData.append(res)
-            }
-            //here dataResponse received from a network request
-//            let decoder = JSONDecoder()
-//            let model = try decoder.decode(MovieData.self, from:
-//                json as! Data) //Decode JSON Response Data
-//            print(model.totalPages) //Output - 1221
+        var movieDataList = [Result]()
+        do {
+            let decoder = JSONDecoder()
+            let model = try decoder.decode(MovieData.self, from:
+                json as! Data) //Decode JSON Response Data
+            print(model.totalPages)
+            movieDataList = model.results
             
-//        } catch let parsingError {
-//            print("Error", parsingError)
-//        }
-//
-//        guard let items = json as? [[String: Any]]  else {
-//            return []
-//        }
-//
-//
-//        items.forEach{
-//            guard let repoName = $0["name"] as? String,
-//                let repoURL = $0["html_url"] as? String else {
-//                    return
-//            }
-//            movieData.append(MovieData(""))
-//        }
-        return movieData
+        } catch let parsingError {
+            print("Error", parsingError)
+        }
+        
+        return movieDataList
+    }
+    
+    func callNextList(){
+        currentPage += 1
+        pageNumber.accept(String(currentPage))
+    }
+    
+    func callRefresh(){
+        currentPage = 1
+        pageNumber.accept(String(currentPage))
     }
 }

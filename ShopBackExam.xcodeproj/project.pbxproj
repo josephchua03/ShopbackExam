@@ -13,9 +13,6 @@
 		7C6CCAE022F48D3800B84458 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCADB22F48D3800B84458 /* HomeViewController.swift */; };
 		7C6CCAE122F48D3800B84458 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCADB22F48D3800B84458 /* HomeViewController.swift */; };
 		7C6CCAE222F48D3800B84458 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCADB22F48D3800B84458 /* HomeViewController.swift */; };
-		7C6CCAE322F48D3800B84458 /* HomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCADC22F48D3800B84458 /* HomeDataSource.swift */; };
-		7C6CCAE422F48D3800B84458 /* HomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCADC22F48D3800B84458 /* HomeDataSource.swift */; };
-		7C6CCAE522F48D3800B84458 /* HomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCADC22F48D3800B84458 /* HomeDataSource.swift */; };
 		7C6CCAE822F48D5800B84458 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAE722F48D5800B84458 /* Constants.swift */; };
 		7C6CCAE922F48D5800B84458 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAE722F48D5800B84458 /* Constants.swift */; };
 		7C6CCAEA22F48D5800B84458 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAE722F48D5800B84458 /* Constants.swift */; };
@@ -64,7 +61,6 @@
 		72B17ACE823DB2D29E70659B /* Pods-ShopBackExam-ShopBackExamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopBackExam-ShopBackExamTests.release.xcconfig"; path = "Target Support Files/Pods-ShopBackExam-ShopBackExamTests/Pods-ShopBackExam-ShopBackExamTests.release.xcconfig"; sourceTree = "<group>"; };
 		7C6CCADA22F48D3800B84458 /* HomeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDelegate.swift; sourceTree = "<group>"; };
 		7C6CCADB22F48D3800B84458 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		7C6CCADC22F48D3800B84458 /* HomeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDataSource.swift; sourceTree = "<group>"; };
 		7C6CCAE722F48D5800B84458 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7C6CCAEB22F495F600B84458 /* HomeListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListTableCell.swift; sourceTree = "<group>"; };
 		7C6CCAF222F49FDA00B84458 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -134,7 +130,6 @@
 			children = (
 				7C6F0B6522F5928100008FB4 /* HomeViewModel.swift */,
 				7C6CCADB22F48D3800B84458 /* HomeViewController.swift */,
-				7C6CCADC22F48D3800B84458 /* HomeDataSource.swift */,
 				7C6CCADA22F48D3800B84458 /* HomeDelegate.swift */,
 				7C6CCAEB22F495F600B84458 /* HomeListTableCell.swift */,
 			);
@@ -521,7 +516,6 @@
 				7C6CCADD22F48D3800B84458 /* HomeDelegate.swift in Sources */,
 				7C6CCAE822F48D5800B84458 /* Constants.swift in Sources */,
 				7C6CCAE022F48D3800B84458 /* HomeViewController.swift in Sources */,
-				7C6CCAE322F48D3800B84458 /* HomeDataSource.swift in Sources */,
 				7C6CCAF322F49FDA00B84458 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,7 +531,6 @@
 				7C6F0B6722F5928100008FB4 /* HomeViewModel.swift in Sources */,
 				7C6CCAE922F48D5800B84458 /* Constants.swift in Sources */,
 				7C6CCAE122F48D3800B84458 /* HomeViewController.swift in Sources */,
-				7C6CCAE422F48D3800B84458 /* HomeDataSource.swift in Sources */,
 				7C6CCAF422F49FDA00B84458 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,7 +546,6 @@
 				7C6F0B6822F5928100008FB4 /* HomeViewModel.swift in Sources */,
 				7C6CCAEA22F48D5800B84458 /* Constants.swift in Sources */,
 				7C6CCAE222F48D3800B84458 /* HomeViewController.swift in Sources */,
-				7C6CCAE522F48D3800B84458 /* HomeDataSource.swift in Sources */,
 				7C6CCAF522F49FDA00B84458 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
