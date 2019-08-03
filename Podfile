@@ -6,8 +6,9 @@ target 'ShopBackExam' do
   use_frameworks!
 
   # Pods for ShopBackExam
-  pod 'RxSwift'
-  pod 'RxCocoa'
+ 	pod 'RxSwift'
+ 	pod 'RxCocoa'
+   	pod 'Kingfisher'
 
   target 'ShopBackExamTests' do
     pod 'RxSwift'

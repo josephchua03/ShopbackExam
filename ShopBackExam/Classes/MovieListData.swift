@@ -8,7 +8,8 @@
 
 import Foundation
 
-struct MovieData: Codable {
+//Movie List Data Type
+struct MovieListData: Codable {
     let page, totalResults, totalPages: Int
     let results: [Result]
     
@@ -46,4 +47,5 @@ struct Result: Codable {
         case adult, overview
         case releaseDate = "release_date"
     }
+    
 }
