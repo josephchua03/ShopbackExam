@@ -9,7 +9,7 @@
 import Foundation
 
 struct MovieData: Codable {
-    let page, totalResults, totalPages: Int
+    let page = 0, totalResults = 0, totalPages: Int = 0
     let results: [Result]
     
     enum CodingKeys: String, CodingKey {
@@ -21,17 +21,17 @@ struct MovieData: Codable {
 }
 
 struct Result: Codable {
-    let voteCount, id: Int
-    let video: Bool
-    let voteAverage: Int
-    let title: String
-    let popularity: Double
-    let posterPath: String?
-    let originalLanguage, originalTitle: String
-    let genreIDS: [Int]
-    let backdropPath: String?
-    let adult: Bool
-    let overview, releaseDate: String
+    let voteCount = 0, id: Int = 0
+    let video: Bool = false
+    let voteAverage: Int = 0
+    let title: String = ""
+    let popularity: Double = 0.0
+    let posterPath: String? = ""
+    let originalLanguage = "", originalTitle: String = ""
+    let genreIDS: [Int] = []
+    let backdropPath: String? = ""
+    let adult: Bool = false
+    let overview = "", releaseDate: String = ""
     
     enum CodingKeys: String, CodingKey {
         case voteCount = "vote_count"

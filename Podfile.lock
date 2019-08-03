@@ -11,10 +11,10 @@ PODS:
     - RxSwift (~> 5)
 
 DEPENDENCIES:
-  - RxBlocking (~> 5)
-  - RxCocoa (~> 5)
-  - RxSwift (~> 5)
-  - RxTest (~> 5)
+  - RxBlocking
+  - RxCocoa
+  - RxSwift
+  - RxTest
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -31,6 +31,6 @@ SPEC CHECKSUMS:
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
   RxTest: 4349afe98f564e0a9bc19063368904622d17d49a
 
-PODFILE CHECKSUM: e13c96e1ca40d058f5fb8a156a9bd2b08b5a53a6
+PODFILE CHECKSUM: a845e4fe3d48f8eab9667dfb096159506dc8425d
 
 COCOAPODS: 1.6.0

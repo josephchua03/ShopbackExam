@@ -16,16 +16,21 @@
 		7C6CCAE322F48D3800B84458 /* HomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCADC22F48D3800B84458 /* HomeDataSource.swift */; };
 		7C6CCAE422F48D3800B84458 /* HomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCADC22F48D3800B84458 /* HomeDataSource.swift */; };
 		7C6CCAE522F48D3800B84458 /* HomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCADC22F48D3800B84458 /* HomeDataSource.swift */; };
-		7C6CCAE822F48D5800B84458 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAE722F48D5800B84458 /* GlobalConstants.swift */; };
-		7C6CCAE922F48D5800B84458 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAE722F48D5800B84458 /* GlobalConstants.swift */; };
-		7C6CCAEA22F48D5800B84458 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAE722F48D5800B84458 /* GlobalConstants.swift */; };
+		7C6CCAE822F48D5800B84458 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAE722F48D5800B84458 /* Constants.swift */; };
+		7C6CCAE922F48D5800B84458 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAE722F48D5800B84458 /* Constants.swift */; };
+		7C6CCAEA22F48D5800B84458 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAE722F48D5800B84458 /* Constants.swift */; };
 		7C6CCAEC22F495F600B84458 /* HomeListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAEB22F495F600B84458 /* HomeListTableCell.swift */; };
 		7C6CCAED22F495F600B84458 /* HomeListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAEB22F495F600B84458 /* HomeListTableCell.swift */; };
 		7C6CCAEE22F495F600B84458 /* HomeListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAEB22F495F600B84458 /* HomeListTableCell.swift */; };
-		7C6CCAF022F49E9600B84458 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAEF22F49E9600B84458 /* MovieData.swift */; };
 		7C6CCAF322F49FDA00B84458 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAF222F49FDA00B84458 /* DetailViewController.swift */; };
 		7C6CCAF422F49FDA00B84458 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAF222F49FDA00B84458 /* DetailViewController.swift */; };
 		7C6CCAF522F49FDA00B84458 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6CCAF222F49FDA00B84458 /* DetailViewController.swift */; };
+		7C6F0B6622F5928100008FB4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6F0B6522F5928100008FB4 /* HomeViewModel.swift */; };
+		7C6F0B6722F5928100008FB4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6F0B6522F5928100008FB4 /* HomeViewModel.swift */; };
+		7C6F0B6822F5928100008FB4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6F0B6522F5928100008FB4 /* HomeViewModel.swift */; };
+		7C6F0B6A22F5953E00008FB4 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6F0B6922F5953E00008FB4 /* MovieData.swift */; };
+		7C6F0B6B22F5953E00008FB4 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6F0B6922F5953E00008FB4 /* MovieData.swift */; };
+		7C6F0B6C22F5953E00008FB4 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6F0B6922F5953E00008FB4 /* MovieData.swift */; };
 		7CF70E6722F33DCD00A6B49A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF70E6622F33DCD00A6B49A /* AppDelegate.swift */; };
 		7CF70E6C22F33DCD00A6B49A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF70E6A22F33DCD00A6B49A /* Main.storyboard */; };
 		7CF70E6E22F33DCE00A6B49A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF70E6D22F33DCE00A6B49A /* Assets.xcassets */; };
@@ -60,10 +65,11 @@
 		7C6CCADA22F48D3800B84458 /* HomeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDelegate.swift; sourceTree = "<group>"; };
 		7C6CCADB22F48D3800B84458 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7C6CCADC22F48D3800B84458 /* HomeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDataSource.swift; sourceTree = "<group>"; };
-		7C6CCAE722F48D5800B84458 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		7C6CCAE722F48D5800B84458 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7C6CCAEB22F495F600B84458 /* HomeListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListTableCell.swift; sourceTree = "<group>"; };
-		7C6CCAEF22F49E9600B84458 /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
 		7C6CCAF222F49FDA00B84458 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7C6F0B6522F5928100008FB4 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7C6F0B6922F5953E00008FB4 /* MovieData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
 		7CF70E6322F33DCD00A6B49A /* ShopBackExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopBackExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF70E6622F33DCD00A6B49A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CF70E6B22F33DCD00A6B49A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -126,6 +132,7 @@
 		7C6CCAD922F48D3800B84458 /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
+				7C6F0B6522F5928100008FB4 /* HomeViewModel.swift */,
 				7C6CCADB22F48D3800B84458 /* HomeViewController.swift */,
 				7C6CCADC22F48D3800B84458 /* HomeDataSource.swift */,
 				7C6CCADA22F48D3800B84458 /* HomeDelegate.swift */,
@@ -137,8 +144,8 @@
 		7C6CCAE622F48D4800B84458 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7C6CCAE722F48D5800B84458 /* GlobalConstants.swift */,
-				7C6CCAEF22F49E9600B84458 /* MovieData.swift */,
+				7C6CCAE722F48D5800B84458 /* Constants.swift */,
+				7C6F0B6922F5953E00008FB4 /* MovieData.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -230,6 +237,7 @@
 				7CF70E5F22F33DCD00A6B49A /* Sources */,
 				7CF70E6022F33DCD00A6B49A /* Frameworks */,
 				7CF70E6122F33DCD00A6B49A /* Resources */,
+				26A55E6DBE2A0D3AF01A2ECB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -360,6 +368,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ShopBackExam-ShopBackExamUITests/Pods-ShopBackExam-ShopBackExamUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
@@ -368,6 +378,8 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
@@ -375,6 +387,32 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShopBackExam-ShopBackExamUITests/Pods-ShopBackExam-ShopBackExamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26A55E6DBE2A0D3AF01A2ECB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopBackExam/Pods-ShopBackExam-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShopBackExam/Pods-ShopBackExam-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3070081339596E2EAD33B6FE /* [CP] Check Pods Manifest.lock */ = {
@@ -477,10 +515,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CF70E6722F33DCD00A6B49A /* AppDelegate.swift in Sources */,
+				7C6F0B6622F5928100008FB4 /* HomeViewModel.swift in Sources */,
 				7C6CCAEC22F495F600B84458 /* HomeListTableCell.swift in Sources */,
+				7C6F0B6A22F5953E00008FB4 /* MovieData.swift in Sources */,
 				7C6CCADD22F48D3800B84458 /* HomeDelegate.swift in Sources */,
-				7C6CCAF022F49E9600B84458 /* MovieData.swift in Sources */,
-				7C6CCAE822F48D5800B84458 /* GlobalConstants.swift in Sources */,
+				7C6CCAE822F48D5800B84458 /* Constants.swift in Sources */,
 				7C6CCAE022F48D3800B84458 /* HomeViewController.swift in Sources */,
 				7C6CCAE322F48D3800B84458 /* HomeDataSource.swift in Sources */,
 				7C6CCAF322F49FDA00B84458 /* DetailViewController.swift in Sources */,
@@ -494,7 +533,9 @@
 				7CF70E7C22F33DCF00A6B49A /* ShopBackExamTests.swift in Sources */,
 				7C6CCAED22F495F600B84458 /* HomeListTableCell.swift in Sources */,
 				7C6CCADE22F48D3800B84458 /* HomeDelegate.swift in Sources */,
-				7C6CCAE922F48D5800B84458 /* GlobalConstants.swift in Sources */,
+				7C6F0B6B22F5953E00008FB4 /* MovieData.swift in Sources */,
+				7C6F0B6722F5928100008FB4 /* HomeViewModel.swift in Sources */,
+				7C6CCAE922F48D5800B84458 /* Constants.swift in Sources */,
 				7C6CCAE122F48D3800B84458 /* HomeViewController.swift in Sources */,
 				7C6CCAE422F48D3800B84458 /* HomeDataSource.swift in Sources */,
 				7C6CCAF422F49FDA00B84458 /* DetailViewController.swift in Sources */,
@@ -508,7 +549,9 @@
 				7CF70E8722F33DCF00A6B49A /* ShopBackExamUITests.swift in Sources */,
 				7C6CCAEE22F495F600B84458 /* HomeListTableCell.swift in Sources */,
 				7C6CCADF22F48D3800B84458 /* HomeDelegate.swift in Sources */,
-				7C6CCAEA22F48D5800B84458 /* GlobalConstants.swift in Sources */,
+				7C6F0B6C22F5953E00008FB4 /* MovieData.swift in Sources */,
+				7C6F0B6822F5928100008FB4 /* HomeViewModel.swift in Sources */,
+				7C6CCAEA22F48D5800B84458 /* Constants.swift in Sources */,
 				7C6CCAE222F48D3800B84458 /* HomeViewController.swift in Sources */,
 				7C6CCAE522F48D3800B84458 /* HomeDataSource.swift in Sources */,
 				7C6CCAF522F49FDA00B84458 /* DetailViewController.swift in Sources */,
@@ -553,6 +596,7 @@
 		7CF70E8922F33DCF00A6B49A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -614,6 +658,7 @@
 		7CF70E8A22F33DCF00A6B49A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -670,6 +715,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 05C1732436CD704D6D121EB0 /* Pods-ShopBackExam.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -680,6 +726,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ShopBackExam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -692,6 +739,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE918DA3D3014F16F3DFC180 /* Pods-ShopBackExam.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -702,6 +750,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ShopBackExam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -714,7 +763,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F36E2A754168D73A85F10326 /* Pods-ShopBackExam-ShopBackExamTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShopBackExamTests/Info.plist;
@@ -735,7 +784,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 72B17ACE823DB2D29E70659B /* Pods-ShopBackExam-ShopBackExamTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShopBackExamTests/Info.plist;
@@ -756,7 +805,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8CA421B60CA88FE5EA875B6A /* Pods-ShopBackExam-ShopBackExamUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShopBackExamUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -776,7 +825,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CFE24B2954A0D3B3FCD77288 /* Pods-ShopBackExam-ShopBackExamUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShopBackExamUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

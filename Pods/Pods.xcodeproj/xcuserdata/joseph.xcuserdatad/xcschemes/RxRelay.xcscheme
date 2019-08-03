@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2FE3AD36657F42D44D0F54063E6D8DF"
+               BlueprintIdentifier = "2C87A6E71086CE42C6B9AE4734F25E9C"
                BlueprintName = "RxRelay"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "RxRelay.framework">
