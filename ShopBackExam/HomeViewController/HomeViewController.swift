@@ -25,19 +25,16 @@ class HomeViewController: UIViewController {
         mainTableView.addSubview(refreshControl)
         
         homeViewModel.data
-            .drive(mainTableView.rx.items(cellIdentifier: "HomeListTableCell")) { _, movieData, cell in
-
+            .drive(mainTableView.rx.items(cellIdentifier: "HomeListTableCell",cellType: HomeListTableCell.self)) { _, movieData, cell in
+                
+                cell.lblTitle?.text = movieData.title
             }
             .disposed(by: disposeBag)
         
-//        homeViewModel.pageNumber.accept("1")
-        homeViewModel.data.asDriver()
-            .map { "\($0.count) Repositories" }
-            .drive(navigationItem.rx.title)
-            .disposed(by: disposeBag)
     }
 
     @objc func refresh(){
+        homeViewModel.pageNumber.accept("2")
         refreshControl.endRefreshing()
     }
 

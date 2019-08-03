@@ -24,7 +24,7 @@ struct Result: Codable {
     let voteCount = 0, id: Int = 0
     let video: Bool = false
     let voteAverage: Int = 0
-    let title: String = ""
+    var title: String = ""
     let popularity: Double = 0.0
     let posterPath: String? = ""
     let originalLanguage = "", originalTitle: String = ""
